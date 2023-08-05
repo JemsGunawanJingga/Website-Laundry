@@ -1,0 +1,333 @@
+@media(max-width:1200px) {
+    .card {
+        height: 300px;
+        width: 100%;
+        background: var(--color-white);
+        display: flex;
+        padding-top: 5px;
+        margin-bottom: 30px;
+        color: var(--color-gray);
+    }
+    
+    .container-swipe {
+        height: 50%;
+        width: 35%;
+        background-color: transparent;
+        border-right: 3px  solid var(--color-gray);
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 10%;
+       
+    }
+    .wall {
+        height: 200%;
+    }
+    
+    .list-harga{
+        list-style-type:circle;
+        text-align: justify;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+     
+    }
+    
+    .icon  {
+        width: 100px;
+        padding-left: 10px; 
+        
+    }
+    
+    .about-price {
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 1.4vw;
+        
+    }
+    
+    .about-price h6 {
+        color: var(--color-orange);
+        text-align: center;
+        margin-top: -5px;
+        
+    }
+    
+    
+    
+    button {
+        background: var(--color-purple);
+        color: var(--color-orange);
+        border: none;
+        width: 50px;
+        border-radius: 30%;
+        margin-top: -30px;
+    }
+    
+    .order {
+        margin-top: 20px;
+    }
+    .order-icon {
+        color: var(--color-orange);
+        margin-top: -10px;
+    }
+    
+    .container-button {
+        margin-left: 40%;
+        text-align: center;
+        margin-top: -480px;
+        height: 40%;
+
+    }
+ hr {
+    display: block;
+ }   
+}
+
+@media(max-width: 972px) {
+    /* About */
+    .about {
+        max-width: 90%;
+        padding: 40px;
+        text-align: justify;
+        font-size: 2vw;
+        color: var(--color-green);
+        margin-left: 40px;
+        
+    }
+
+
+    /* Wall */
+    .wall {
+        margin-left: 0px;
+        width: 100%;
+        background: var(--color-white);
+        height: 10px;
+        /* position: absolute;
+        top: 230%; */
+        margin-top: 70%;
+    }
+
+    /* Content */
+    .content {
+        margin-left: 0%;
+        width: 100%;
+        /* background-color: cadetblue; */
+        padding: 40px;
+        height: auto;
+    }
+    
+    .content h2 {
+        text-align: center;
+        color: cadetblue;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+    
+    .card {
+        height: 150px;
+        width: 100%;
+        background: var(--color-white);
+        display: flex;
+        padding-top: 5px;
+        margin-bottom: 30px;
+        color: var(--color-gray);
+    }
+    
+    .container-swipe {
+        height: 100%;
+        width: 20%;
+        background-color: transparent;
+        border-right: 3px  solid var(--color-gray);
+        padding-top: 10px;
+        padding-right: 0px;   
+        
+    }
+
+    .container-swipe p {
+        font-size: 1.4vw;
+        margin-right: 30px;
+    }
+    
+    .list-harga{
+        list-style-type:circle;
+        text-align: justify;
+    }
+    
+    .icon  {
+        width: 13vw;
+        margin-right: 50px;   
+    }
+    
+    hr{
+        display: none;
+    }
+    
+    .about-price {
+        /* background-color: aqua; */
+        width: 45%;
+        height: 100%;
+        margin-top: -130px;
+        margin-left: 35%;               
+    }
+    
+    .about-price h6 {
+        color: var(--color-orange);
+        text-align: center;
+        margin-top: -5px;
+        
+    }
+    
+    
+    
+    button {
+        background: var(--color-purple);
+        color: var(--color-orange);
+        border: none;
+        width: 50px;
+        border-radius: 30%;
+        margin-top: -30px;
+    }
+    
+    .order {
+        margin-top: 20px;
+    }
+    .order-icon {
+        color: var(--color-orange);
+        margin-top: -10px;
+    }
+    
+    .container-button {
+        margin-left: 70%;
+        text-align: center;
+        margin-top: -160px;
+        height: auto;
+        
+    }
+    
+
+}
+
+@media(max-width:576px) {
+
+    .about {
+        margin-left: 20px;
+        text-align: justify;
+        font-size: 2.3vw;
+        color: var(--color-green);
+        
+    }
+
+    .wall {
+        margin-left: 0px;
+        width: 100%;
+        background: var(--color-white);
+        height: 5px;
+        /* position: absolute;
+        top: 230%; */
+        margin-top: 90%;
+    }
+    .card {
+        height: 300px;
+        width: 100%;
+        background: var(--color-white);
+        display: flex;
+        padding-top: 5px;
+        margin-bottom: 30px;
+        color: var(--color-gray);
+    }
+    
+    .container-swipe {
+        height: 50%;
+        width: 35%;
+        background-color: transparent;
+        border-right: 3px  solid var(--color-gray);
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 10%;
+       
+    }
+
+    .container-swipe p {
+        font-size: 3vw;
+        margin-right: 30px;
+    }
+    
+    
+    .list-harga{
+        list-style-type:circle;
+        text-align: justify;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+     
+    }
+    
+    .icon  {
+        width: 100px;
+        padding-left: 10px; 
+        
+    }
+    
+    .about-price {
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 3vw;
+        
+    }
+    
+    .about-price h6 {
+        color: var(--color-orange);
+        text-align: center;
+        margin-top: -5px;
+        
+    }
+    
+    
+    
+    button {
+        background: var(--color-purple);
+        color: var(--color-orange);
+        border: none;
+        width: 50px;
+        border-radius: 30%;
+        margin-top: -30px;
+    }
+    
+    .order {
+        margin-top: 20px;
+    }
+    .order-icon {
+        color: var(--color-orange);
+        margin-top: -10px;
+    }
+    
+    .container-button {
+        margin-left: 40%;
+        text-align: center;
+        margin-top: -480px;
+        height: 40%;
+
+    }
+ hr {
+    display: block;
+ }   
+}
+
+
+@media(max-width:472px) {
+    .wall {
+        margin-left: 0px;
+        width: 100%;
+        background: var(--color-white);
+        height: 5px;
+        /* position: absolute;
+        top: 230%; */
+        margin-top: 100%;
+    }
+}

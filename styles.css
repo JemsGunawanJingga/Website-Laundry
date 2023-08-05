@@ -1,0 +1,183 @@
+:root {
+    --color-white: #F1F8E9;
+    --color-blue: #B2EBF2;
+    --color-gray: #78909C;
+    --color-orange: #FF9E80;
+    --color-purple: #D1C4E9;
+    --color-green: cadetblue;
+}
+
+body {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(
+        90deg,
+        var(--color-blue),
+        var(--color-white),
+        var(--color-purple)
+    );
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    color: var(--color-orange);
+}
+
+.container-content {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(
+        90deg,
+        var(--color-blue) 40%,
+        var(--color-purple)
+    ) ;
+    border-radius: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.about {
+    max-width: 45%;
+    padding: 40px;
+    text-align: justify;
+    font-size: 20px;
+    color: var(--color-green);
+    
+}
+.about h2 {
+    text-align: center;
+}
+
+
+
+.contact-container {
+    margin-top: 30px;
+}
+
+.instargram-icon {
+    background-image: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatsapp-icon {
+    background: #25D366;
+    -webkit-background-clip: text;
+}
+
+.email-icon {
+    background:var(--color-gray) ;
+    -webkit-background-clip: text;
+}
+
+.wall {
+    margin-left: 50%;
+    width: 8px;
+    background: var(--color-white);
+    height:130%;
+    position: absolute;
+    top: 230px;
+}
+
+.content {
+    margin-left: 10%;
+    width: 40%;
+    /* background-color: cadetblue; */
+    padding: 40px;
+    height: auto;
+    
+}
+
+.content h2 {
+    text-align: center;
+    color: cadetblue;
+}
+
+.card {
+    height: 150px;
+    width: 100%;
+    background: var(--color-white);
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    color: var(--color-gray);
+}
+
+.container-swipe {
+    height: 100%;
+    width: 35%;
+    background-color: transparent;
+    border-right: 3px  solid var(--color-gray);
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.list-harga{
+    list-style-type:circle;
+    text-align: justify;
+}
+
+.icon  {
+    width: 100px;
+    padding-left: 10px; 
+    
+}
+
+hr{
+    display: none;
+}
+
+.about-price {
+    /* background-color: aqua; */
+    width: 45%;
+    height: 100%;
+    margin-top: -130px;
+    margin-left: 35%;
+    
+    
+}
+
+.about-price h6 {
+    color: var(--color-orange);
+    text-align: center;
+    margin-top: -5px;
+    
+}
+
+
+
+button {
+    background: var(--color-purple);
+    color: var(--color-orange);
+    border: none;
+    width: 50px;
+    border-radius: 30%;
+    margin-top: -30px;
+}
+
+.order {
+    margin-top: 20px;
+}
+.order-icon {
+    color: var(--color-orange);
+    margin-top: -10px;
+}
+
+.container-button {
+    margin-left: 80%;
+    text-align: center;
+    margin-top: -140px;
+    height: auto;
+    
+}
