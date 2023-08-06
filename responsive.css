@@ -57,7 +57,7 @@
     
     
     
-    button {
+    .enter {
         background: var(--color-purple);
         color: var(--color-orange);
         border: none;
@@ -84,6 +84,11 @@
  hr {
     display: block;
  }   
+
+ /* order */
+ 
+
+
 }
 
 @media(max-width: 972px) {
@@ -182,7 +187,7 @@
     
     
     
-    button {
+    .enter {
         background: var(--color-purple);
         color: var(--color-orange);
         border: none;
@@ -206,7 +211,11 @@
         height: auto;
         
     }
-    
+
+    /* order */
+    .container-pms {
+        width: 50%;
+    }
 
 }
 
@@ -290,7 +299,7 @@
     
     
     
-    button {
+    .enter {
         background: var(--color-purple);
         color: var(--color-orange);
         border: none;
@@ -317,6 +326,13 @@
  hr {
     display: block;
  }   
+/* Order */
+.container-pms {
+    width: 70%;
+    left: 15%;
+}
+
+
 }
 
 
@@ -330,4 +346,12 @@
         top: 230%; */
         margin-top: 100%;
     }
+.exit-btn {
+    width: 40px;
+}
+
+.pay {
+    width: 40px;
+}
+
 }

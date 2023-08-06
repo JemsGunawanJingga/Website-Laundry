@@ -85,7 +85,7 @@
                 <div class="container-button">
                   <p class="order">Order</p>
                           <p class="order-icon"><i class="fa-solid fa-arrow-down fa-beat-fade"></i></p>
-                          <button><i class="fa-solid fa-check"></i></button>
+                          <button class="enter" id="btn-order-pakaian"><i class="fa-solid fa-check"></i></button>
                       </div>
             </div>
             <!-- Card 2  -->
@@ -126,7 +126,7 @@
                 <div class="container-button">
                   <p class="order">Order</p>
                           <p class="order-icon"><i class="fa-solid fa-arrow-down fa-beat-fade"></i></p>
-                          <button><i class="fa-solid fa-check"></i></button>
+                          <button class="enter" id="btn-order-serba-tidur"><i class="fa-solid fa-check"></i></button>
                       </div>
              </div>
 <!-- card 3 -->
@@ -155,9 +155,9 @@
        
   </div>
   <div class="container-button">
-    <p class="order">Order</p>
+    <p>Order</p>
             <p class="order-icon"><i class="fa-solid fa-arrow-down fa-beat-fade"></i></p>
-            <button><i class="fa-solid fa-check"></i></button>
+            <button class="enter" id="btn-order-sepatu-topi"><i class="fa-solid fa-check"></i></button>
         </div>
 </div>
 
@@ -194,17 +194,122 @@
           <div class="container-button">
             <p class="order">Order</p>
                     <p class="order-icon"><i class="fa-solid fa-arrow-down fa-beat-fade"></i></p>
-                    <button><i class="fa-solid fa-check"></i></button>
+                    <button class="enter" id="btn-order-tikar"><i class="fa-solid fa-check"></i></button>
                 </div>
        </div>
-
-
         </div>
-          
-            
+
+        <!-- Order -->
+        <!-- Order 1  -->
+        <section class="container-pms" id="laundry-pakaian">
+          <button class="exit-btn" id="exit-btn-pakaian" type="button"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></button>
+          <h2>laundry Pakaian</h2>
+          <div class="container-form">
+              <form action="">
+                  <label for="name">Name :</label> <br>
+                  <input type="text" name="name" id="name" class="input" placeholder="name" required onkeypress="onlyAlphabet(event)" maxlength="30" minlength="4"> <br>
+                  <label for="no-hp">No Hp :</label> <br>
+                  <input type="text" name="nohp" id="no-hp" class="input" placeholder="no handphone" onkeypress="onlyNumber(event)" maxlength="12" minlength="11"><br>
+                  <label for="weight">Berat/Weight :</label> <br>
+                  <input type="text" name="berat" id="weight" class="input" placeholder="Ex : 5.3" required onkeypress="onlyWeight(event)" maxlength="5" minlength="1"><br>
+                  <label for="durasi">Select Duration : Pakaian</label>
+                  <select name="durasi" id="durasi" required>
+                      <option value="">Choose</option>
+                      <option value="1">3hari</option>
+                      <option value="2">2hari</option>
+                      <option value="3">1hari</option>
+                      <option value="4">12jam</option>
+                  </select> <br>
+  
+                  <button class="pay" id="btn-pay-pakaian"><i class="fa-solid fa-circle-plus"></i></button>
+                  
+              </form>
+          </div>
+      </section>
+      <!-- Order 2 -->
+      <section class="container-pms" id="laundry-serba-tidur">
+        <button class="exit-btn" id="exit-btn-serba-tidur" type="button"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></button>
+        <h2>laundry Serba Tidur</h2>
+        <div class="container-form">
+            <form action="">
+                <label for="name">Name :</label> <br>
+                <input type="text" name="name" id="name" class="input" placeholder="name" required onkeypress="onlyAlphabet(event)" maxlength="30" minlength="4"> <br>
+                <label for="no-hp">No Hp :</label> <br>
+                <input type="text" name="nohp" id="no-hp" class="input" placeholder="no handphone" onkeypress="onlyNumber(event)" maxlength="12" minlength="11"><br>
+                <label for="weight">Berat/Weight :</label> <br>
+                <input type="text" name="berat" id="weight" class="input" placeholder="Ex : 5.3" required onkeypress="onlyWeight(event)" maxlength="5" minlength="1"><br>
+                <label for="durasi">Select Duration : Serba Tidur</label>
+                <select name="durasi" id="durasi" required>
+                    <option value="">Choose</option>
+                    <option value="1">3hari</option>
+                    <option value="2">2hari</option>
+                    <option value="3">1hari</option>
+                    <option value="4">12jam</option>
+                </select> <br>
+
+                <button class="pay" id="btn-pay-serba-tidur"><i class="fa-solid fa-circle-plus"></i></button>
+                
+            </form>
+        </div>
+    </section>
+
+
+
+      <!-- Order 3 -->
+      <section class="container-pms" id="laundry-sepatu-topi">
+        <button class="exit-btn" id="exit-btn-sepatu-topi" type="button"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></button>
+        <h2>laundry Sepatu & Topi</h2>
+        <div class="container-form">
+            <form action="">
+                <label for="name">Name :</label> <br>
+                <input type="text" name="name" id="name" class="input" placeholder="name" required onkeypress="onlyAlphabet(event)" maxlength="30" minlength="4"> <br>
+                <label for="no-hp">No Hp :</label> <br>
+                <input type="text" name="nohp" id="no-hp" class="input" placeholder="no handphone" onkeypress="onlyNumber(event)" maxlength="12" minlength="11"><br>
+                <label for="weight">Amount :</label> <br>
+                <input type="text" name="berat" id="weight" class="input" placeholder="amount" required onkeypress="onlyWeight(event)" maxlength="5" minlength="1"><br>
+                <label for="durasi">Select : </label>
+                <select name="durasi" id="durasi" required>
+                    <option value="">Choose</option>
+                    <option value="1">Sepatu</option>
+                    <option value="2">Topi</option>
+                </select> <br>
+
+                <button class="pay" id="btn-pay-sepatu-topi"><i class="fa-solid fa-circle-plus"></i></button>
+                
+            </form>
+        </div>
+    </section>
+
+      <!-- Order 4 -->
+      <section class="container-pms" id="laundry-tikar">
+        <button class="exit-btn" id="exit-btn-tikar" type="button"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></button>
+        <h2>laundry Sepatu & Topi</h2>
+        <div class="container-form">
+            <form action="">
+                <label for="name">Name :</label> <br>
+                <input type="text" name="name" id="name" class="input" placeholder="name" required onkeypress="onlyAlphabet(event)" maxlength="30" minlength="4"> <br>
+                <label for="no-hp">No Hp :</label> <br>
+                <input type="text" name="nohp" id="no-hp" class="input" placeholder="no handphone" onkeypress="onlyNumber(event)" maxlength="12" minlength="11"><br>
+                <label for="weight">Amount :</label> <br>
+                <input type="text" name="berat" id="weight" class="input" placeholder="amount" required onkeypress="onlyWeight(event)" maxlength="5" minlength="1"><br>
+                <label for="durasi">Select : </label>
+                <select name="durasi" id="durasi" required>
+                    <option value="">Choose</option>
+                    <option value="1">Keset</option>
+                    <option value="2">Tikar</option>
+                    <option value="3">karpet</option>s
+                </select> <br>
+
+                <button class="pay" id="btn-pay-tikar"><i class="fa-solid fa-circle-plus"></i></button>
+                
+            </form>
+        </div>
+    </section>
+
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script href="style.js"></script>
+    <script src="style.js"></script>
   </body>
 </html>
